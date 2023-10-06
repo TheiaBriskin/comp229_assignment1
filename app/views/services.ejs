@@ -1,0 +1,49 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+  
+<head>
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/css/services.css">
+</head>
+
+<main class="container">
+  <div class="jumbotron">
+    <h1 class="display-4">Welcome to <%= title %> page</h1>
+    </div>
+
+    <ul class="services-list">
+      <li>
+        <img src="/img/video_ed.png" alt="Video Editing">
+        <h2>Video Editing</h2>
+        <p>video editing services for a variety of projects, including promotional videos, music videos, and more.</p>
+      </li>
+     
+      <li>
+        <img src="/img/photo.jpg" alt="Photography">
+        <h2>Photography</h2>
+        <p>photography services including headshots, portrait, fashion, and more.</p>
+      </li>
+      
+      <li>
+        <img src="/img/webdev.png" alt="Web Development">
+        <h2>Web Development</h2>
+        <p>engaging and user-friendly web experiences for businesses and individuals.</p>
+      </li>
+      
+      <li>
+        <img src="/img/java.png" alt="Java Programming">
+        <h2>Java Programming</h2>
+        <p>efficient and effective applications for businesses and individuals.</p>
+      </li>
+    </ul>
+
+    <br>
+    <br>
+    </main>
+    <!--bottom nav-->
+   
+   
+      <!--script section-->
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>
+   

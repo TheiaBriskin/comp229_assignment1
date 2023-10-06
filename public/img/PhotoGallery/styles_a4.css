@@ -1,0 +1,198 @@
+/* apply a natural box layout model to all elements */
+* {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+/* reset rules */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+
+body {
+   line-height: 1;
+   width: 960px;
+   background: white;
+   margin: 0 auto;
+   font-family: Verdana, Geneva, sans-serif; 
+}
+
+ol, ul {
+   list-style: none;
+}
+
+/* page header */
+body > header {
+   background: #5472B2;
+   width: 100%;
+   color: #FFFFFF;
+   font-size: 20px;
+   text-align: center;
+   line-height: 2.1em;
+   margin-bottom: 0;
+   font-family: Verdana, Geneva, sans-serif;
+   text-shadow: 1px 1px black;
+}
+
+#image-container {
+	text-align: center;
+	margin-top: 20px;
+}
+
+#image {
+	max-width: 100%;
+}
+
+#controls {
+	text-align: center;
+	margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #102e6e;
+    box-shadow: 0 2px #949797;
+    color: white;
+    border: 0.5px solid #949797;
+    cursor: pointer;
+    margin-left: 45%;
+  }
+  
+  button:hover {
+    background-color: #1e4fb9;
+  }
+
+  button:active{
+   background-color: #1e4fb9;
+   box-shadow: 0 2px #949797;
+   transform: translateY(4px);
+  }
+
+
+/*-------------------- Project Styles ------------------*/
+
+section {
+   background-color: #34363a;
+   margin-top: 0;
+   padding-top: 20px;
+   padding-bottom: 60px;
+}
+
+
+section > h1 {
+   text-align: center;
+   font-size: 27px;
+   font-family: Verdana, Geneva, sans-serif;
+   letter-spacing: 1px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   color: rgba(255, 255, 255, 0.877);
+   text-shadow: 2px 3px black;
+}
+
+
+div#slides {
+   width: 400px;
+   height: 300px;
+   margin: 0 auto;
+   overflow: hidden;
+   position: relative;
+   border: 1px solid rgb(79, 77, 77);
+   box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
+   border-radius: 6px;
+}
+
+div#slidebox {
+   width: 800px;
+   height: auto;
+   margin: 0 auto;
+   position: relative;
+}
+
+div#slidebox img#leftbutton, div#slidebox img#rightbutton {
+   position: absolute;
+   width: 60px;
+   cursor: pointer;
+   filter: drop-shadow(8px 0px 2px rgba(0,0,0, 1))  
+}
+
+div#slidebox img#leftbutton {
+   top: 100px;
+   left: 120px;  
+}
+
+div#slidebox img#rightbutton {
+   top: 100px;
+   left: 620px;  
+}
+
+div#slides > img {
+   width: 400px;
+   position: absolute;
+   top: 0px;
+}
+
+div#slides {
+   width: 400px;
+   height: 300px;
+   margin: 0 auto;
+   overflow:hidden;
+   position: relative;
+   border: 1px solid black;
+   box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
+}
+
+div#slides > img#photo1 {left: 0px;}
+div#slides > img#photo2 {left: 401px;}
+div#slides > img#photo3 {left: 802px;}
+div#slides > img#photo4 {left: 1203px;}
+div#slides > img#photo5 {left: 1604px;}
+div#slides > img#photo6 {left: 2005px;}
+div#slides > img#photo10 {left: 2406px;}
+div#slides > img#photo20 {left: 2807px;}
+div#slides > img#photo30 {left: 3208px;}
+div#slides > img#photo40 {left: 3609px;}
+div#slides > img#photo50 {left: 4010px;}
+div#slides > img#photo60 {left: 4411px;}
+
+div#caption {
+   width: 42%;
+   background-color: rgba(247, 242, 242, 0.349);
+   margin: 20px auto;
+   text-align: center;
+   font-size: 16px;
+   font-weight: bold;
+   line-height: 1.9em;
+   border-radius: 6px;
+   color: rgba(255, 255, 255, 0.877);
+   text-shadow: 2px 2px black;
+   box-shadow: 4px 4px 15px rgba(0,0,0,0.7);
+}
+
+ 

@@ -1,0 +1,63 @@
+/*  Student: Theia Briskin
+    StudentID: 301280498
+    Date: 10/05/2023
+
+    Filename: index.css
+*/
+
+.display-4 {
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 3%;
+    margin-left: 2%;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+/* Define styles for a jumbotron section */
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+  
+.jumbotron p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+    max-width: 800px;
+}
+  
+
+/* Define styles for the button within the jumbotron section */
+.jumbotron button {
+   display: inline-block;
+   width: 120px;
+   height: 30px;
+   font-size: 1em;
+   text-align: center;
+   text-decoration: none;
+   margin: 20px auto;
+   float: none;
+   clear: none;
+   cursor: pointer;
+   border-radius: 6px;
+   border: none;
+   background-color: rgb(22, 153, 170);
+   box-shadow: 0 5px #949797;
+}
+
+.jumbotron button:active {
+   background-color: #df4a30d8;
+   box-shadow: 0 5px #666666d7;
+   transform: translateY(4px);
+}
+  
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Add space between the buttons */
+    width: 100%; /* Set the width of the container div */
+}

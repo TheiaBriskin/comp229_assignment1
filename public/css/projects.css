@@ -1,0 +1,84 @@
+/*  Student: Theia Briskin
+    StudentID: 301280498
+    Date: 10/05/2023
+
+    Filename: projects.css
+*/
+
+.display-4 {
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 3%;
+    margin-left: 2%;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+/* Define styles for a jumbotron section */
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 4%;
+}
+  
+.jumbotron p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+    max-width: 800px;
+}
+
+/* Define styles for the heading within the client-side web section */
+.clien-side-web {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: -3%;
+}
+
+.clien-side-web h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+  
+.game {
+    font-size: 16px;
+    margin-top: 2%;
+}
+
+.gallery {
+    font-size: 16px;
+    margin-top: 2%;
+}
+
+/* Define styles for the video projects section */
+.video_projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: -2%;
+}
+
+.video_projects h2 {
+    font-size: 20px;
+    margin-left: -4%;
+    margin-bottom: 5%;
+    padding-top: 20px;
+}
+  
+.explainer {
+    margin-left: 6%;
+}
+
+.teaser {
+    margin-left: 6%;
+}

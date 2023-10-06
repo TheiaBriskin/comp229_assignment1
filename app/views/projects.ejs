@@ -1,0 +1,88 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+
+<head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/css/projects.css">
+</head>
+
+<main class="container">
+  <div class="jumbotron">
+    <h1 class="display-4">Welcome to <%= title %> page</h1>
+
+        <div class = "clien-side-web">
+            <h2>Client-side Web Development</h2>                
+                 
+                <div class="game">
+                <p><b>1. Game</b></p> 
+                <p>The bug hops randomly around the game area at a given interval. The player tries to catch the
+                    bug by clicking on it. If he succeeds, the score is incremented and the hopping interval is
+                    decremented by a number of milliseconds, so it gets harder to catch the bug.
+                    If the game becomes too challenging, the payer can reset the speed to the initial hopping interval
+                    by clicking the Reset Speed button.
+                    If the player wants, he can start again by resetting the score by clicking the Reset Score button.
+                </p> 
+                <a href="/img/Game/index.html" target="_blank">play game</a>
+                </div>
+                
+                <br>
+                <br>
+
+                <div class="gallery">
+                <p><b>2. Photo Gallery</b></p>
+                <p>Photo Gallery contains two files of pictuers, and starts displaying pictures in the order from the first file.
+                    When the last picture is displayed, it is followed by the first picture on the list.                     
+                    The user can click on the "Previous" or "Next" button to immediately show the previous or 
+                    next picture in the list. Additionally, there is an "Update" button that allows the user to 
+                    load and update the picture list from the second file. When the "Update" 
+                    button is clicked, the first picture in the list is automatically displayed.
+                </p>                
+                <a href="/img/PhotoGallery/a4.html" target="_blank">check out the gallery</a>                
+                </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="video_projects">
+            <h2>Video Projects</h2> 
+
+            <div class="opener">
+                <p><b>1. Opener</b></p>
+                <p>This opener has been created for the dog breeder's video about Cirneco dell'Etna breed.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/j3KWEH8nImc" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+        <br>
+        <br>
+
+            <div class="explainer">
+                <p><b>2. Explainer</b></p>
+                <p>This explainer has been created for the Omega Park (Quebec) to show their service in a simple way.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/o-OAgiygZkE" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+        <br>
+        <br>
+
+            <div class="teaser">
+                <p><b>3. Teaser</b></p>
+                <p>This teaser has been created for AcroMAX Championship & Air Show, an annual event that features aerobatic performances and competitions by top pilots from around the world.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/y2XpBPGcIoU" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+    </div>
+    </main>
+    <!--bottom nav-->
+   
+   
+      <!--script section-->
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>
+   

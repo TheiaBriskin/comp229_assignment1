@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    background: linear-gradient(to top right, rgb(211, 245, 156), #d9dbdb, #d2f7c4b6) fixed;
+    
+}
+
+.container {
+    display: inline-block;
+}
+
+
+#scoreButton {
+    background-color: rgb(243, 210, 191); 
+    color: #42100c; 
+    display: inline-block;
+    border: 1px solid #b13b0cb7;
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+    box-shadow: 0 4px #949797;
+    margin: 20px auto;
+    font-size: 15px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+#scoreButton:hover {
+    background-color: #df4a30d8;
+    color: #fff;
+    box-shadow: 0 5px #606161;
+}
+
+#scoreButton:active{
+    background-color: #df4a30d8;
+    box-shadow: 0 5px #666666d7;
+    transform: translateY(4px);
+}
+
+#speedButton {
+    background-color: rgb(232, 243, 191); 
+    color: #42100c; 
+    display: inline-block;
+    border: 1px solid #b13b0cb7;
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+    box-shadow: 0 4px #949797;
+    margin: 20px auto;
+    font-size: 15px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+#speedButton:hover {
+    background-color: #64a11dd8;
+    color: #fff;
+    box-shadow: 0 5px #606161;
+}
+
+#speedButton:active{
+    background-color: #df4a30d8;
+    box-shadow: 0 5px #666666d7;
+    transform: translateY(4px);
+}
+
+#score {
+    font-size: 15px;
+    color: rgb(179, 21, 10);
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    margin-left: 28%;
+    margin-top: 2%;
+}
+#title {
+    font-size: 20px;
+    color: rgb(230, 113, 3);
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    margin-left: 20%;
+}
+
+#theCanvas {
+    border-radius: 50%;
+  }

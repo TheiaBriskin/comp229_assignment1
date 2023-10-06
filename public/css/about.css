@@ -1,0 +1,60 @@
+/*  Student: Theia Briskin
+    StudentID: 301280498
+    Date: 10/05/2023
+
+    Filename: about.css
+*/
+
+.display-4 {
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 4%;
+    margin-left: 2%;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+/* Define styles for a jumbotron section */
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: -4%;
+}
+  
+.jumbotron p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+    max-width: 800px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .jumbotron {
+    width: 80%;
+  }
+  
+  /* Define styles for the profile section */
+  .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mypic {
+    margin-right: 4%; /* adding space between the image and the text */
+    margin-bottom: 9%;
+  }
+  
+  .resume {
+    margin-top: 50px; /* adding space between the text and resume link */
+  }
+

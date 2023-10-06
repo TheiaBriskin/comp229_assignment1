@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Bug Smasher</title>
+		<link rel="stylesheet" type="text/css" href="style.css">	
+    </head>
+
+    <body>
+        <div class = "container">
+        <table>
+            <tr>
+                <td style="width:270px;">
+					<div id = "title">BugSmasher</div>
+                    <div id = "score"></div>                   
+                </td>
+                <td style="width: 170px;">
+                    <button id = "scoreButton"  onclick = "resetScore()">Reset Score</button>
+                </td>
+                <td>
+                    <button id = "speedButton" onclick = "resetSpeed()">Reset Speed</button>
+                </td>
+            </tr>
+        </table>
+        <div id = "theCanvas"></div>
+        </div>
+		<script src="js/game.js"></script>
+    </body>
+</html>

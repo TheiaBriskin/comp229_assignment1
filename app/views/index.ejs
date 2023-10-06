@@ -1,0 +1,67 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+   
+<head>
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/css/index.css">
+
+  <script src="../js/index.js"></script>
+
+</head>
+
+
+<main class="container">
+  <div class="jumbotron">
+    <h1 class="display-4">Welcome to <%= title %> page</h1>
+
+    <h3 class="mission"><p>"Digital experiences through code and creativity"</p></h3> 
+
+    <p>Welcome to my website,
+
+      I'm thrilled to have you here! As a student in the Software Engineering Technology program at 
+      Centennial College and a freelance video editor, I'm passionate about exploring the intersection 
+      of technology and creativity.</p>
+      
+    <p>Through my studies, I've developed a deep understanding of software engineering principles and 
+      techniques. And as someone who is also interested in front-end development, I'm excited to apply 
+      these skills to create engaging and user-friendly web experiences.</p>
+      
+    <p>At the same time, my work as a freelance video editor has allowed me to hone my skills in video 
+      production and post-production. Whether it's creating a promotional video for a business or a creative 
+      project for personal use, I'm committed to delivering high-quality results that exceed my clients' 
+      expectations.</p>
+      
+    <p>Take a moment to explore my portfolio and see some of the projects I've worked on. If you're interested 
+      in working together, don't hesitate to get in touch.</p>
+    <br>  
+    <p>Thank you for visiting my website! </p>
+      
+    <div class="buttons-container">
+    <button onclick="window.location.href='about'" class="btn btn-primary">About Me</button>
+    <button onclick="window.location.href='projects'" class="btn btn-primary">Projects</button>
+    </div>
+
+    <br>
+    <br>
+
+    </div>
+    </main>
+    <!--bottom nav-->
+   
+   
+      <!--script section-->
+
+      <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const formSubmitted = urlParams.get('formSubmitted');
+      
+        if (formSubmitted === 'true') {
+          const successMsg = document.createElement('p');
+          successMsg.textContent = 'Thank you for submitting the form!';
+          document.body.appendChild(successMsg);
+        }
+      </script>
+
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>
+   

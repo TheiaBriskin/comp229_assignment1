@@ -1,0 +1,65 @@
+/*  Student: Theia Briskin
+    StudentID: 301280498
+    Date: 10/05/2023
+
+    Filename: services.css
+*/
+
+
+.display-4 {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 3%;
+  margin-left: 2%;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.jumbotron {
+  display: flex;
+  flex-direction: column; /* Stack child elements vertically */
+  align-items: center;
+  justify-content: center; /* Center the items horizontally */
+  height: 100%;
+  margin-top: -24%;
+}
+
+.jumbotron p {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left;
+  max-width: 800px;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the items horizontally */
+    list-style: none; /* Remove the default bullet points */
+    padding: 0;
+    margin-top: -27%;
+  }
+  
+  .services-list li {
+    margin: 20px;
+    max-width: 300px;
+    text-align: left;
+    margin-top: -1%;
+  }
+  
+  .services-list img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover; /* Scale the image while maintaining its aspect ratio */
+    border-radius: 10px;
+  }
+  
+  .services-list h2 {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  .services-list p {
+    margin-top: 10px;
+  }
